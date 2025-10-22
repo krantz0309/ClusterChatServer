@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/krantz/Projects/ClusterChatServer/ClusterChatServer/include -I/home/krantz/Projects/ClusterChatServer/ClusterChatServer/include/server
+CXX_INCLUDES = -I/home/krantz/Projects/ClusterChatServer/ClusterChatServer/include -I/home/krantz/Projects/ClusterChatServer/ClusterChatServer/include/server -I/home/krantz/Projects/ClusterChatServer/ClusterChatServer/thirdparty
 
 CXX_FLAGS =  -g -std=c++11 -g
 

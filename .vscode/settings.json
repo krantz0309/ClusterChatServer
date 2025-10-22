@@ -16,6 +16,12 @@
         "exception": "cpp",
         "cstddef": "cpp",
         "string": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "ciso646": "cpp",
+        "map": "cpp",
+        "unordered_map": "cpp",
+        "stdexcept": "cpp",
+        "cassert": "cpp",
+        "iosfwd": "cpp"
     }
 }

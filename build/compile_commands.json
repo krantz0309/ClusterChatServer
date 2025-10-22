@@ -1,13 +1,19 @@
 [
 {
   "directory": "/home/krantz/Projects/ClusterChatServer/ClusterChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/krantz/Projects/ClusterChatServer/ClusterChatServer/include -I/home/krantz/Projects/ClusterChatServer/ClusterChatServer/include/server  -g -std=c++11 -g -o CMakeFiles/ChatServer.dir/chatserver.cpp.o -c /home/krantz/Projects/ClusterChatServer/ClusterChatServer/src/server/chatserver.cpp",
+  "command": "/usr/bin/g++  -I/home/krantz/Projects/ClusterChatServer/ClusterChatServer/include -I/home/krantz/Projects/ClusterChatServer/ClusterChatServer/include/server -I/home/krantz/Projects/ClusterChatServer/ClusterChatServer/thirdparty  -g -std=c++11 -g -o CMakeFiles/ChatServer.dir/chatserver.cpp.o -c /home/krantz/Projects/ClusterChatServer/ClusterChatServer/src/server/chatserver.cpp",
   "file": "/home/krantz/Projects/ClusterChatServer/ClusterChatServer/src/server/chatserver.cpp",
   "output": "src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o"
 },
 {
   "directory": "/home/krantz/Projects/ClusterChatServer/ClusterChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/krantz/Projects/ClusterChatServer/ClusterChatServer/include -I/home/krantz/Projects/ClusterChatServer/ClusterChatServer/include/server  -g -std=c++11 -g -o CMakeFiles/ChatServer.dir/main.cpp.o -c /home/krantz/Projects/ClusterChatServer/ClusterChatServer/src/server/main.cpp",
+  "command": "/usr/bin/g++  -I/home/krantz/Projects/ClusterChatServer/ClusterChatServer/include -I/home/krantz/Projects/ClusterChatServer/ClusterChatServer/include/server -I/home/krantz/Projects/ClusterChatServer/ClusterChatServer/thirdparty  -g -std=c++11 -g -o CMakeFiles/ChatServer.dir/chatservice.cpp.o -c /home/krantz/Projects/ClusterChatServer/ClusterChatServer/src/server/chatservice.cpp",
+  "file": "/home/krantz/Projects/ClusterChatServer/ClusterChatServer/src/server/chatservice.cpp",
+  "output": "src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o"
+},
+{
+  "directory": "/home/krantz/Projects/ClusterChatServer/ClusterChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/krantz/Projects/ClusterChatServer/ClusterChatServer/include -I/home/krantz/Projects/ClusterChatServer/ClusterChatServer/include/server -I/home/krantz/Projects/ClusterChatServer/ClusterChatServer/thirdparty  -g -std=c++11 -g -o CMakeFiles/ChatServer.dir/main.cpp.o -c /home/krantz/Projects/ClusterChatServer/ClusterChatServer/src/server/main.cpp",
   "file": "/home/krantz/Projects/ClusterChatServer/ClusterChatServer/src/server/main.cpp",
   "output": "src/server/CMakeFiles/ChatServer.dir/main.cpp.o"
 }
