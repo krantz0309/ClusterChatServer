@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "algorithm": "cpp",
+        "functional": "cpp",
+        "initializer_list": "cpp",
+        "memory": "cpp",
+        "numeric": "cpp",
+        "utility": "cpp",
+        "vector": "cpp",
+        "array": "cpp",
+        "forward_list": "cpp",
+        "iterator": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "valarray": "cpp",
+        "exception": "cpp",
+        "cstddef": "cpp",
+        "string": "cpp",
+        "iostream": "cpp"
+    }
+}

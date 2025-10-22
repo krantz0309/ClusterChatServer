@@ -1,0 +1,1 @@
+/usr/bin/g++  -g -std=c++11 -g CMakeFiles/ChatServer.dir/chatserver.cpp.o CMakeFiles/ChatServer.dir/main.cpp.o -o /home/krantz/Projects/ClusterChatServer/ClusterChatServer/bin/ChatServer  -lmuduo_net -lmuduo_base -lpthread 
