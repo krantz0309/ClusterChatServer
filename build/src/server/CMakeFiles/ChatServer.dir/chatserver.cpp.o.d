@@ -291,8 +291,13 @@ src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o: \
  /home/krantz/Projects/ClusterChatServer/ClusterChatServer/include/server/model/group.h \
  /home/krantz/Projects/ClusterChatServer/ClusterChatServer/include/server/model/groupuser.h \
  /home/krantz/Projects/ClusterChatServer/ClusterChatServer/include/server/model/offlinemessagemodel.h \
- /usr/include/c++/13/mutex /usr/include/c++/13/bits/chrono.h \
- /usr/include/c++/13/ratio /usr/include/c++/13/ctime \
- /usr/include/c++/13/bits/parse_numbers.h \
- /usr/include/c++/13/bits/std_mutex.h \
+ /home/krantz/Projects/ClusterChatServer/ClusterChatServer/include/server/redis/redis.h \
+ /usr/local/include/hiredis/hiredis.h /usr/local/include/hiredis/read.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h \
+ /usr/local/include/hiredis/sds.h /usr/local/include/hiredis/alloc.h \
+ /usr/include/c++/13/thread /usr/include/c++/13/bits/std_thread.h \
+ /usr/include/c++/13/bits/this_thread_sleep.h \
+ /usr/include/c++/13/bits/chrono.h /usr/include/c++/13/ratio \
+ /usr/include/c++/13/ctime /usr/include/c++/13/bits/parse_numbers.h \
+ /usr/include/c++/13/mutex /usr/include/c++/13/bits/std_mutex.h \
  /usr/include/c++/13/bits/unique_lock.h

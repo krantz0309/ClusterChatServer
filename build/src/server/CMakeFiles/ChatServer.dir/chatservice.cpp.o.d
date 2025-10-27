@@ -217,6 +217,14 @@ src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o: \
  /usr/include/c++/13/bits/ostream.tcc \
  /usr/include/c++/13/bits/istream.tcc \
  /home/krantz/Projects/ClusterChatServer/ClusterChatServer/include/server/model/offlinemessagemodel.h \
+ /home/krantz/Projects/ClusterChatServer/ClusterChatServer/include/server/redis/redis.h \
+ /usr/local/include/hiredis/hiredis.h /usr/local/include/hiredis/read.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h \
+ /usr/local/include/hiredis/sds.h /usr/local/include/hiredis/alloc.h \
+ /usr/include/c++/13/thread /usr/include/c++/13/bits/std_thread.h \
+ /usr/include/c++/13/bits/this_thread_sleep.h \
+ /usr/include/c++/13/bits/chrono.h /usr/include/c++/13/ratio \
+ /usr/include/c++/13/ctime /usr/include/c++/13/bits/parse_numbers.h \
  /usr/local/include/muduo/net/TcpConnection.h \
  /usr/local/include/muduo/base/noncopyable.h \
  /usr/local/include/muduo/base/StringPiece.h \
@@ -283,10 +291,7 @@ src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o: \
  /usr/local/include/boost/any/bad_any_cast.hpp \
  /usr/local/include/boost/any/fwd.hpp \
  /usr/local/include/boost/any/detail/placeholder.hpp \
- /usr/include/c++/13/mutex /usr/include/c++/13/bits/chrono.h \
- /usr/include/c++/13/ratio /usr/include/c++/13/ctime \
- /usr/include/c++/13/bits/parse_numbers.h \
- /usr/include/c++/13/bits/std_mutex.h \
+ /usr/include/c++/13/mutex /usr/include/c++/13/bits/std_mutex.h \
  /usr/include/c++/13/bits/unique_lock.h \
  /home/krantz/Projects/ClusterChatServer/ClusterChatServer/include/public.h \
  /usr/local/include/muduo/base/Logging.h \
