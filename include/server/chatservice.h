@@ -5,6 +5,7 @@
 #include "groupmodel.h"
 #include "json.hpp"
 #include "offlinemessagemodel.h"
+#include "redis.h"
 using json = nlohmann::json;
 
 #include <muduo/net/TcpConnection.h>
@@ -47,6 +48,9 @@ public:
     // 群组聊天业务
     void groupChat(const TcpConnectionPtr &conn, json &js, Timestamp time);
 
+    // 处理注销业务
+    void logout(const TcpConnectionPtr &conn, json &js, Timestamp time);
+
     // 获取消息对应的处理器
     MsgHandler getHandler(int msgid);
 
@@ -55,6 +59,9 @@ public:
 
     // 处理客户端异常退出
     void clientCloseException(const TcpConnectionPtr &conn);
+
+    // 从redis消息队列中获取订阅的消息
+    void handleRedisSubscribeMessage(int userid, string msg);
 private:
     ChatService();
 
@@ -72,4 +79,7 @@ private:
     OfflineMsgModel offlineMsgModel_;
     FriendModel friendModel_;
     GroupModel groupModel_;
+
+    // redis操作对象
+    Redis redis_;
 };

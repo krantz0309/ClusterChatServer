@@ -1,0 +1,6 @@
+# 构建目录
+build/
+bin/
+
+# ide 文件
+.vscode/

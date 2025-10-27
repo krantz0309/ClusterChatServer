@@ -283,4 +283,16 @@ src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc /usr/include/c++/13/ostream \
  /usr/include/c++/13/bits/ostream.tcc \
  /usr/include/c++/13/bits/istream.tcc \
- /home/krantz/Projects/ClusterChatServer/ClusterChatServer/include/server/chatservice.h
+ /home/krantz/Projects/ClusterChatServer/ClusterChatServer/include/server/chatservice.h \
+ /home/krantz/Projects/ClusterChatServer/ClusterChatServer/include/server/model/usermodel.h \
+ /home/krantz/Projects/ClusterChatServer/ClusterChatServer/include/server/model/user.h \
+ /home/krantz/Projects/ClusterChatServer/ClusterChatServer/include/server/model/friendmodel.h \
+ /home/krantz/Projects/ClusterChatServer/ClusterChatServer/include/server/model/groupmodel.h \
+ /home/krantz/Projects/ClusterChatServer/ClusterChatServer/include/server/model/group.h \
+ /home/krantz/Projects/ClusterChatServer/ClusterChatServer/include/server/model/groupuser.h \
+ /home/krantz/Projects/ClusterChatServer/ClusterChatServer/include/server/model/offlinemessagemodel.h \
+ /usr/include/c++/13/mutex /usr/include/c++/13/bits/chrono.h \
+ /usr/include/c++/13/ratio /usr/include/c++/13/ctime \
+ /usr/include/c++/13/bits/parse_numbers.h \
+ /usr/include/c++/13/bits/std_mutex.h \
+ /usr/include/c++/13/bits/unique_lock.h
