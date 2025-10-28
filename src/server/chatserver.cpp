@@ -50,6 +50,6 @@ void ChatServer::onMessage(const TcpConnectionPtr &conn,
     json js = json::parse(buf);
     // 通过js["msg_id"]
     auto msgHandler = ChatService::instance()->getHandler(js["msgid"].get<int>());
-    // 回调笑嘻绑定好的事件处理器，来执行相应的业务处理
+    // 回调消息绑定好的事件处理器，来执行相应的业务处理
     msgHandler(conn, js, time);
 }
